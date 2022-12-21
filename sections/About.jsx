@@ -4,13 +4,12 @@ import { TypingText } from '@/components';
 import { fadeIn, staggerContainer } from '@/utils/motion';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import Link from 'next/link';
 
 const About = () => (
 	<section className='relative paddings z-10'>
 		<div className='gradient-02 z-0'></div>
 		<motion.div
-			varitants={staggerContainer}
+			variants={staggerContainer}
 			initial='hidden'
 			whileInView='show'
 			viewport={{ once: false, amount: 0.25 }}
